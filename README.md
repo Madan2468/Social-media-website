@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I have developed a social media website currently in its initial phase. Users can create posts using the "Create Post" option and view them in the home section. They also have the ability to delete posts. The website has been built using HTML, CSS, Bootstrap, React.js, and Redux.js. In the future, I plan to add more dynamic features and functionalities to enhance the user experience.
