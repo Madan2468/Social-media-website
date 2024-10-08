@@ -1,0 +1,47 @@
+  /* Footer stays at the bottom */
+  footer {
+    margin-top: auto; /* Ensure the footer pushes to the bottom */
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  
+  footer ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  footer li {
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: white;
+    transition: color 0.2s ease;
+  }
+  
+  footer a:hover {
+    color: #00bfff;
+  }
+  
+  footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+  }
+  /* Ensure the body and html take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Main wrapper that holds the entire content except the footer */
+  #main-content {
+    min-height: 100%; /* Make sure the content area grows to fill the page */
+    display: flex;
+    flex-direction: column;
+  }
+  

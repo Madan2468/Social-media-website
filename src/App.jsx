@@ -23,7 +23,7 @@ function App() {
           ) : (
             <CreatePost></CreatePost>
           )}
-          <Footer></Footer>
+          <Footer/>
         </div>
       </div>
     </PostListProvider>

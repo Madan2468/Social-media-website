@@ -1,0 +1,15 @@
+.sidebar-container {
+    width: 180px;
+    min-height: 100vh;
+    background-color: #343a40;
+    padding: 15px;
+  }
+  
+  .nav-link.active {
+    background-color: #007bff;
+  }
+  
+  .nav-link:hover {
+    background-color: #495057;
+  }
+  

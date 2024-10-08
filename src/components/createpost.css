@@ -1,0 +1,21 @@
+.create_post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .create_post .form-control {
+    width: 100%; /* Make form controls take up full width */
+    margin-bottom: 15px;
+  }
+  
+  .create_post button {
+    align-self: center; /* Center the button */
+  }
+  
