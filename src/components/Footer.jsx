@@ -1,52 +1,35 @@
-import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
-
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white">
-      <footer className="py-8">
-        <div className="container mx-auto px-4">
-          <ul className="flex justify-center space-x-8 border-b border-gray-700 pb-4 mb-4">
-            <li>
-              <a href="/" className="hover:text-blue-400 transition duration-200">Home</a>
-            </li>
-            <li>
-              <a href="/features" className="hover:text-blue-400 transition duration-200">Features</a>
-            </li>
-            <li>
-              <a href="/pricing" className="hover:text-blue-400 transition duration-200">Pricing</a>
-            </li>
-            <li>
-              <a href="/faqs" className="hover:text-blue-400 transition duration-200">FAQs</a>
-            </li>
-            <li>
-              <a href="/about" className="hover:text-blue-400 transition duration-200">About</a>
-            </li>
-            <li>
-              <a href="/products" className="hover:text-blue-400 transition duration-200">Products</a>
-            </li>
-            <li>
-              <a href="/contact" className="hover:text-blue-400 transition duration-200">Contact Us</a>
-            </li>
-          </ul>
-
-          <div className="flex justify-center space-x-4 mb-4">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-200">
-              <FaFacebookF size={20} />
+    <div className="container">
+      <footer className="py-3 my-4">
+        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+          <li className="nav-item">
+            <a href="#" className="nav-link px-2 text-body-secondary">
+              Home
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-200">
-              <FaTwitter size={20} />
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link px-2 text-body-secondary">
+              Features
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-200">
-              <FaInstagram size={20} />
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link px-2 text-body-secondary">
+              Pricing
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-200">
-              <FaLinkedinIn size={20} />
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link px-2 text-body-secondary">
+              FAQs
             </a>
-          </div>
-
-          <p className="text-center text-gray-400">© 2024 Company, Inc. All rights reserved.</p>
-        </div>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav-link px-2 text-body-secondary">
+              About
+            </a>
+          </li>
+        </ul>
+        <p className="text-center text-body-secondary">© 2024 Company, Inc</p>
       </footer>
     </div>
   );
