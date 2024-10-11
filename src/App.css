@@ -105,6 +105,8 @@
 .foot{
   display: flex;
   justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 p{
   display: flex;

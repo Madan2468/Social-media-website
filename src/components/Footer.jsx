@@ -56,7 +56,9 @@ const Footer = () => {
    </div>
        
 
+<p>All Rights Reserved by Madan</p>
         <p className="text-center text-body-secondary  ">© 2024 Company, Inc</p>
+        
         </div>
       </footer>
     </div>
