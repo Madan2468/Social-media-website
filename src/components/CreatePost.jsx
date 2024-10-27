@@ -38,6 +38,7 @@ const createPost = () => {
           className="form-control"
           id="userId"
           placeholder="Your User Id"
+          required
         />
       </div>
 
@@ -51,6 +52,7 @@ const createPost = () => {
           className="form-control"
           id="title"
           placeholder="How are you feeling today.."
+          required
         />
       </div>
 
@@ -65,6 +67,7 @@ const createPost = () => {
           className="form-control"
           id="title"
           placeholder="Tell us more about it "
+          required
         />
       </div>
 
@@ -79,6 +82,7 @@ const createPost = () => {
           className="form-control"
           id="reactions"
           placeholder="How many people reacted to this post"
+          required
         />
       </div>
 
@@ -93,6 +97,7 @@ const createPost = () => {
           className="form-control"
           id="tags"
           placeholder="Please enter tags using space "
+          required
         />
       </div>
 
